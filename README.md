@@ -14,12 +14,12 @@
 **Exception Handling:** Custom exception classes to manage invalid moves gracefully without terminating the app.
 
 ###  Box Types
-- `RegularBox` : Standard boxes that have a high chance of containing special tools.
-- `UnchangingBox`: The stamped letters on its surfaces cannot be altered by tools.
-- `FixedBox`: Anchored boxes that cannot be rolled, stopping any domino-effect in its tracks.
+- **RegularBox** : Standard boxes that have a high chance of containing special tools.
+- **UnchangingBox**: The stamped letters on its surfaces cannot be altered by tools.
+- **FixedBox**: Anchored boxes that cannot be rolled, stopping any domino-effect in its tracks.
 
 ###  Special Tools
 Acquired by opening boxes, these tools allow you to manipulate the grid:
-- `PlusShapeStamp` / `MassRowStamp` / `MassColumnStamp`: Restamps specific patterns of boxes.
-- `BoxFlipper`: Inverts a box, swapping its top and bottom sides.
-- `BoxFixer`: Converts a standard box into an unmovable FixedBox.
+- **PlusShapeStamp** / **MassRowStamp** / **MassColumnStamp**: Restamps specific patterns of boxes.
+- **BoxFlipper**: Inverts a box, swapping its top and bottom sides.
+- **BoxFixer**: Converts a standard box into an unmovable FixedBox.
